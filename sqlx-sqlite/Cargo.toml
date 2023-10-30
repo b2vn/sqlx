@@ -48,10 +48,7 @@ regex = { version = "1.5.5", optional = true }
 version = "0.26.0"
 default-features = false
 features = [
-    "pkg-config",
-    "vcpkg",
-    "bundled",
-    "unlock_notify"
+    "buildtime_bindgen"
 ]
 
 [dependencies.sqlx-core]
